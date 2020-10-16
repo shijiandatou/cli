@@ -38,10 +38,10 @@ export async function createProject(options) {
     const templateDir = path.resolve(
         new URL(currentFileUrl).pathname,
         '../../templates',
-        options.template.toLowerCase()
+        options.template
     );
     options.templateDirectory = templateDir;
-
+    console.log(templateDir);
     try {
         await access(templateDir, fs.constants.R_OK);
     } catch (err) {

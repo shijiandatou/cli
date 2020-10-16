@@ -1,0 +1,17 @@
+{
+  "name": "<%=name%>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "<%=author%>",
+  "license": "ISC",
+  "description": "<%=description%>",
+  "dependencies": {
+    "antd": "^4.7.0",
+    "jquery": "^3.5.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
